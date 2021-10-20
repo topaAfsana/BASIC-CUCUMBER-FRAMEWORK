@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="cucumber test">
+        <classes>
+            <class name="QA.cucumber_runner"></class>
+        </classes>
+        
+</test></suite>
+
+
+<!--RUN FROM TESTNG XML FILE-->
+
+<!--INTELLIJ CONFIG:-->
+<!--TESTNG :-->
+<!--TEST KIND: SUITE-->
+<!--SUITE PATH: /Users/abraartishan/Desktop/TOPA_QA/CODE BASE/SIMPLE_CUCUMBER/testng.xml-->
+<!--VM OPTION: -ea -Dtestng.dtd.http=true-->
+<!--CLASS PATH OF MODULE: SIMPLE_CUCUMBER-->
+
+
+<!--CUCUMBER-JAVA:-->
+<!--GLUE: /Users/abraartishan/Desktop/TOPA_QA/CODE BASE/SIMPLE_CUCUMBER/src/main/java/QA/Stepdefs-->
+<!--FEATURE FOLDER PATGH: /Users/abraartishan/Desktop/TOPA_QA/CODE BASE/SIMPLE_CUCUMBER/src/main/java/QA/Features-->
