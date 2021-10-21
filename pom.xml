@@ -11,42 +11,32 @@
 
 
     <dependencies>
-        <!--CUCUMBER DEPENDENCY  NEW-->
-        <!-- https://mvnrepository.com/artifact/info.cukes-->
+        <!--CUCUMBER DEPENDENCY-->
         <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>1.2.6</version>
+            <version>6.9.1</version>
         </dependency>
-
 
         <dependency>
             <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-core</artifactId>
-            <version>2.3.1</version>
-            <scope>test</scope>
+            <artifactId>cucumber-testng</artifactId>
+            <version>6.9.1</version>
         </dependency>
 
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>2.3.1</version>
-            <scope>test</scope>
-        </dependency>
-
-
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-testng</artifactId>
-            <version>1.2.6</version>
-            <type>pom</type>
+            <version>6.9.1</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.8.2</version>
-            <scope>test</scope>
+            <version>4.13.1</version>
+            <scope>compile</scope>
         </dependency>
+
         <!---->
 
         <!--        SELENIUM DEPENDENCY-->
@@ -61,26 +51,13 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.5</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>6.9.1</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.3.0</version>
-            <scope>compile</scope>
-        </dependency>
         <!--        -->
     </dependencies>
+
+
+
+
+
     <properties>
         <maven.compiler.source>12</maven.compiler.source>
         <maven.compiler.target>12</maven.compiler.target>
