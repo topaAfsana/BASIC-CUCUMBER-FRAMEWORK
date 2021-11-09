@@ -9,9 +9,16 @@
 </test></suite>
 
 
-<!--RUN FROM TESTNG XML FILE-->
 
-<!--INTELLIJ CONFIG:-->
+<!--NOTE-->
+<!--//WORKED-OCT 27-->
+
+<!--RUN FROM TESTNG XML FILE-->
+<!--RUN IN TERMINAL-->
+<!--        source ~/.bash_profile-->
+        <!--        mvn clean test -Dtestng.dtd.http=true-->
+
+ <!--INTELLIJ CONFIG:-->
 <!--TESTNG :-->
 <!--TEST KIND: SUITE-->
 <!--SUITE PATH: /Users/abraartishan/Desktop/TOPA_QA/CODE BASE/SIMPLE_CUCUMBER/testng.xml-->

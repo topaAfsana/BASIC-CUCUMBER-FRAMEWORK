@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-21T21:40:59.058Z",
+        "start_timestamp": "2021-11-09T22:21:46.466Z",
         "line": 5,
         "name": "User able to Log in Facebook",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2392000,
+              "duration": 1345000,
               "status": "passed"
             },
             "line": 6,
